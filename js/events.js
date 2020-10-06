@@ -21,9 +21,7 @@ function pressIt() {
 
 function submitIt() {
   $('form:last').on('subit', function() {
-    if (key.which === 71) {
-      alert('Your form is going to be submitted now.')
-    }
+    alert('Your form is going to be submitted now.')
   })
 }
 
