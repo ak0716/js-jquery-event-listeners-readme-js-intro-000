@@ -19,9 +19,18 @@ function pressIt() {
   })
 }
 
+function pressIt() {
+  $('#typing').on('keydown', function(key) {
+    if (key.which === 71) {
+      alert('You pressed G')
+    }
+  })
+}
+
 
 $(document).ready(function(){
   getIt()
   frameIt()
   pressIt()
+  submitIt()
 });
