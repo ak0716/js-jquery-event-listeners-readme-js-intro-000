@@ -19,10 +19,10 @@ function pressIt() {
   })
 }
 
-function pressIt() {
-  $('#typing').on('keydown', function(key) {
+function submitIt() {
+  $('form:last').on('subit', function() {
     if (key.which === 71) {
-      alert('You pressed G')
+      alert('Your form is going to be submitted now.')
     }
   })
 }
